@@ -53,7 +53,7 @@ public class TestUsandoJsonMap {
 
 	@Test
 	public void usingJsonMapFromFile() {
-		File file = new File("C:\\Projetos\\CursoRest\\target\\teste2.json");
+		File file = new File(System.getProperty("user.dir") + "\\target\\" + "teste1.json");
 		
 		Map<String, Object> map = new HashMap<>();
 		try {
